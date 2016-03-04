@@ -1,0 +1,121 @@
+---
+---
+/*
+----------
+Kalcifer Kandari
+Date: 2 March 2016 10:48:04
+----------
+Used for the index, 404, and other pages.
+*/
+
+@import 'reset';
+@import 'global';
+
+/*
+----------
+Main Styles
+----------
+*/
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    line-height: 0;
+
+    text-align: center;
+    height: 100%;
+}
+
+div {
+    /*
+    Unconventional styles that ensures the text within the div remains in the centre of the screen.
+    Required for variably sized fonts (meaning the dimensions of the container cannot be known or defined).
+    */
+    /*margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    height: 0;*/
+}
+
+#logo {
+    height: 20vw;
+    width: 20vw;
+    margin-top: -20vw;
+    padding-bottom: 11vw;
+}
+
+h1 {
+    font-size: 6vw;
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+    a {
+        font-size: inherit;
+        margin: 0;
+        padding: 0;
+        line-height: inherit;
+    }
+
+    /*
+    Styles required to avoid the title and links from overlapping, resulting from the container div's height being 0.
+    */
+    margin-top: -1.5vw;
+    padding-bottom: 4vw;
+}
+
+h2 {
+    font-weight: 700;
+    color: rgb(35, 35, 35);
+}
+
+p, nav, a, ul, li, form, input, h2 {
+    font-size: 1vw;
+    line-height: 1.3;
+}
+
+nav {
+    display: inline;
+    max-width: 500px;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+    }
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 1.3;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+/*
+@TODO 11 March 2014 06:44:23 Can't get the DynamicScaling JavaScript to work in supporting.scss - try copy and pasting them, it really should work but for some reason it doesn't (tried with @import and without - perhaps something with the way css is retrieved by the DOM function/how it's stored in the DOM)
+@TODO Improve the CSS to remove repeated styles (including in index, articles, and supporting)
+*/
+
+/*
+@TODO Javascript does not function selectors in media queries.
+*/
+
+h2 {
+    display: none;
+}
+
+#logoLink {
+    line-height: 0;
+}
+
+#main {
+    margin-top: 1rem; }

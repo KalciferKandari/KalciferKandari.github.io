@@ -1,0 +1,31 @@
+{% comment %}
+Written by: Kalcifer Kandari
+Date: 2 March 2016 09:03:14
+{% endcomment %}
+<!------------>
+<!-- Navigation. -->
+<!---------- start -->{% assign bioticPixelsUrl = "bioticpixels.com" %}{% capture supporting %}{{ bioticPixelsUrl | append: "/supporting" }}{% endcapture %}
+
+<nav>
+
+<ul>
+
+<li>{% if page.url != "/" %}{{ '<a href="' }}{{ site.http | append: site.url | append: site.baseurl }}{{ '" title="' }}{{ site.url | append: site.baseurl }}{{ '">' }}Home</a>{% else %}Home{% endif %} |</li>
+
+<li>{% if page.url != "/articles/" %}{{ '<a href="' }}{{ site.http | append: site.url | append: site.baseurl | append: "/articles" }}{{ '" title="' }}{{ site.url | append: site.baseurl | append: "/articles" }}{{ '">' }}Articles</a>{% else %}Articles{% endif %} |</li>
+
+<li><a href="{{ "mailto:" | append: site.email }}" title="{{ site.email }}">Email</a> |</li>
+
+<li><a href="{{ "https://" | append: site.githubUrl | append: "/" | append: site.github }}" title="{{ site.githubUrl | append: "/" | append: site.github }}">GitHub</a> |</li>
+
+<li>{% if page.url != "/supporting.html" %}{{ '<a href="' }}{{ site.http | append: supporting }}{{ '" title="' }}{{ supporting }}{{ '">' }}Supporting</a>{% else %}Supporting{% endif %} |</li>
+
+<li>{% if page.url != "articles/about.html" %}{{ '<a href="' }}{{ site.http | append: site.url | append: site.baseurl | append: "/articles/about" }}{{ '" title="' }}{{ site.url | append: site.baseurl | append: "/articles/about" }}{{ '">' }}About</a>{% else %}About{% endif %}</li>
+
+</ul>
+
+</nav>
+
+<!------------>
+<!-- Navigation. -->
+<!---------- end -->

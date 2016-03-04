@@ -1,0 +1,40 @@
+---
+#----------
+# Written by: Kalcifer Kandari
+# Date: 1 March 2016 19:02:17
+#----------
+# The index page content.
+layout: default
+---
+{% assign meta = site.data.meta.prime %}<!------------>
+<!-- Header. -->
+<!---------- start -->
+
+<header>
+
+<!------------>
+<!-- Logo. -->
+<!------------>
+<img id="logo" src="{{ site.http | append: site.url | append: site.baseurl }}/resources/images/kalciferkandari.png" alt="Kalcifer Kandari image.">
+
+<h1>{{ site.title }}</h1>
+{% include nav.html meta=meta %}
+
+</header>
+
+<!------------>
+<!-- Header. -->
+<!---------- end -->
+
+<!------------>
+<!-- Main. -->
+<!---------- start -->
+
+<div id="main">
+
+{{ content }}
+</div>
+
+<!------------>
+<!-- Main. -->
+<!---------- end -->

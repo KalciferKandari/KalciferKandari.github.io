@@ -1,0 +1,91 @@
+#----------
+# Kalcifer Kandari
+# Date: 1 March 2016 22:41:54
+#----------
+
+# This config file is meant for settings that affect your whole blog, values which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *not* reloaded automatically when you use 'jekyll serve'. If you change this file, please restart the server process.
+
+#----------
+# Site settings.
+#---------- start
+# There are global variable across the entire site, accessed using `site.<variable>`.
+
+title: "Kalcifer Kandari"
+
+email: "kalciferkandair@gmail.com"
+
+name: "Kalcifer Kandari"
+
+twitter: "KalciferKandari"
+
+githubUrl: "github.io"
+github: "KalciferKandari"
+    
+http: "http://"
+
+# url: "kalciferkandari.github.io"
+url: "127.0.0.1:4000"
+
+baseurl: "" # the subpath of the site, e.g. /blog
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "prime"
+            css:
+                - "index"
+            javascript:
+                - "dynamicScaling"
+                - "index"
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "article"
+            css:
+                - "articles"
+            javascript:
+                - "dynamicScaling"
+                - "articles"
+            permalink: "/articles/:year/:month/:day/:title.html"
+    -
+        scope:
+            path: "/articles"
+            type: "posts"
+        values:
+            css:
+                - "articles"
+            javascript:
+                - "dynamicScaling"
+                - "articles" 
+            
+    -
+        scope:
+            path: "./"
+            type: "pages"
+        values:
+            layout: "article"
+            css:
+                - "articles"
+            javascript:
+                - "dynamicScaling"
+                - "articles"
+
+#----------
+# Site settings.
+#---------- end
+
+#----------
+# Build settings.
+#---------- start
+
+markdown: kramdown
+
+#----------
+# Build settings.
+#---------- end

@@ -1,0 +1,29 @@
+/*
+----------
+Written by: Kalcifer Kandari
+Date: 2 March 2016 10:49:23
+----------
+*/
+
+$black80: rgb(51, 51, 51);
+$white: rgb(255, 255, 255);
+$devilFamily: "Helvetica Neue", "Helvetica", "Myriad Pro", "Calibri", "Arial", sans-serif;
+
+body {
+    color: $black80;
+    background: $white;
+    font-family: $devilFamily;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 126, 223);
+    &:hover {
+      text-decoration: underline;
+    }
+}
+
+.hiddenBullets {
+    list-style: none;
+}

@@ -1,0 +1,29 @@
+{% comment %}
+Written by: Kalcifer Kandari
+Date: 1 March 2016 21:46:46
+{% endcomment %}
+<!------------>
+<!-- Head. -->
+<!---------- start -->
+
+<head>
+{% for css in page.css %}
+<link rel="stylesheet" type="text/css" href="{{ site.http | append: site.url | append: site.baseurl }}/css/{{ css }}.css">{% endfor %}
+
+<link rel="shortcut icon" type="image/png" href="{{ site.http | append: site.url | append: site.baseurl }}/resources/images/favicon.png">
+
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | prepend: site.http }}">
+
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url | prepend: site.http }}">{% for javascript in page.javascript %}
+
+<script type="text/javascript" src="{{ site.http | append: site.url | append: site.baseurl }}/javascript/{{ javascript }}.js"></script>{% endfor %}
+
+<title>{% if page.title %}{{ page.title | escape }}{{ " - " }}{% endif %}Kalcifer Kandari</title>
+
+<meta charset="utf-8"/>
+
+</head>
+
+<!------------>
+<!-- Head. -->
+<!---------- end -->

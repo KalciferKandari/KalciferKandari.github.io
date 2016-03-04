@@ -1,0 +1,47 @@
+---
+#----------
+# Written by: Kalcifer Kandari
+# Date: 2 March 2016 09:06:32
+#----------
+# The page template.
+
+layout: default
+---
+<!------------>
+<!-- Header. -->
+<!---------- start -->
+
+<header>
+
+<div>
+
+<!------------>
+<!-- Logo. -->
+<!------------>
+<img id="logo" src="{{ site.http | append: site.url }}/resources/images/kalciferkandari.png" alt="Kalcifer Kandari image.">
+
+<p id="name">{{ site.title }}</p>
+
+</div>
+{% include nav.html %}
+
+<hr>
+
+</header>
+
+<!------------>
+<!-- Header. -->
+<!---------- end -->
+
+<!------------>
+<!-- Main. -->
+<!---------- start -->
+
+<div id="main">
+
+{{ content }}
+</div>
+
+<!------------>
+<!-- Main. -->
+<!---------- end -->
