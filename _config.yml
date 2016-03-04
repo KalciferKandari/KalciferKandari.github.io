@@ -24,8 +24,8 @@ github: "KalciferKandari"
     
 http: "http://"
 
-# url: "kalciferkandari.github.io"
-url: "127.0.0.1:4000"
+url: "kalciferkandari.github.io"
+# url: "127.0.0.1:4000"
 
 baseurl: "" # the subpath of the site, e.g. /blog
 
