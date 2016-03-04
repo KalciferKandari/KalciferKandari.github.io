@@ -29,6 +29,8 @@ url: "kalciferkandari.github.io"
 
 baseurl: "" # the subpath of the site, e.g. /blog
 
+exclude: "post.sh"
+
 defaults:
     -
         scope:
