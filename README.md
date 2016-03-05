@@ -1,6 +1,6 @@
 <!-- Date: 1 March 2016 16:50:58 -->
 
-![Kalcifer Kandari Logo.](/{{ site.logo }})
+![Kalcifer Kandari Logo.](/{{ site.logoSmall }})
 
 # KalciferKandari.github.io
 
