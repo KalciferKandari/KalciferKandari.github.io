@@ -9,6 +9,14 @@ layout: page
 ---
 
 <article class="article">
-    
-{{ content }}
+
+<h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+
+<p><em>Written by: {{ site.data.authors[page.author].name }}</em><br />
+<em>Date: {{ page.date | date: "%-d %B %Y %T" }}</em></p>
+{% if page.excerpt != "" %}
+<h2 id="{{ "Abstract" | slugify }}">Abstract</h2>
+
+<p>{{ page.excerpt }}</p>
+{% endif %}{{ content }}
 </article>

@@ -24,17 +24,18 @@ github: "KalciferKandari"
     
 http: "http://"
 
-url: "kalciferkandari.github.io"
-# url: "127.0.0.1:4000"
+#url: "kalciferkandari.github.io"
+url: "127.0.0.1:4000"
 
 baseurl: "" # the subpath of the site, e.g. /blog
 
-logo: "images/kalcifer_kandari_black_650x650.png"
-logoSmall: "images/kalcifer_kandari_black_150x150.png"
+images: "images/"
+logo: "kalcifer_kandari_black_650x650.png"
+logoSmall: "kalcifer_kandari_black_150x150.png"
 
-exclude: ["post.sh"]
+exclude: ["post.sh", "newPost.sh"]
 
-destination: ../gh-pages
+destination: "../gh-pages"
 
 defaults:
     -
