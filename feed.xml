@@ -3,55 +3,40 @@
   <channel>
     <title>Kalcifer Kandari</title>
     <description></description>
-    <link>kalciferkandari.github.io/</link>
-    <atom:link href="kalciferkandari.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 10:11:00 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 10:11:00 +0000</lastBuildDate>
+    <link>127.0.0.1:4000/</link>
+    <atom:link href="127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 06 Mar 2016 16:45:51 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 16:45:51 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>About</title>
-        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
-
-&lt;p&gt;TODO&lt;/p&gt;
+        <description>&lt;p&gt;TODO&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Mar 2016 13:15:00 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/about.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/about.html</guid>
+        <link>127.0.0.1:4000/articles/about.html</link>
+        <guid isPermaLink="true">127.0.0.1:4000/articles/about.html</guid>
         
         
       </item>
     
       <item>
-        <title>Website Engine</title>
-        <description>&lt;h1 id=&quot;website-engine&quot;&gt;Website Engine&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Written by: Kalcifer Kandari&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Date: 29 February 2016 23:54:09&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;0. Abstract&lt;/h2&gt;
-
-&lt;p&gt;Websites are great, most of the time, but there are some aspects to them that are mildly annoying and should have been fixed already. Things such as those times when a page almost loads, but then loads a bit more and moves a link you are about to press just a enough for you to click a different one. Looking at you Google.com. And the fact that most website send the parts of the webpage that don’t change with every request. Small things that take a lot of effort to fix.&lt;/p&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;1. Table of Contents&lt;/h2&gt;
+        <title>Website Engine Outline 0.1.0</title>
+        <description>
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 
 &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;command + up&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;control + up&lt;/code&gt; to come back to the table of contents.&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#website-engine&quot; id=&quot;markdown-toc-website-engine&quot;&gt;Website Engine&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#abstract&quot; id=&quot;markdown-toc-abstract&quot;&gt;0. Abstract&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot; id=&quot;markdown-toc-table-of-contents&quot;&gt;1. Table of Contents&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;2. Introduction&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#display-engine&quot; id=&quot;markdown-toc-display-engine&quot;&gt;3. Display Engine&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#server-engine&quot; id=&quot;markdown-toc-server-engine&quot;&gt;4. Server Engine&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#data-storage&quot; id=&quot;markdown-toc-data-storage&quot;&gt;5. Data Storage&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#display-engine&quot; id=&quot;markdown-toc-display-engine&quot;&gt;2. Display Engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#server-engine&quot; id=&quot;markdown-toc-server-engine&quot;&gt;3. Server Engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#data-storage-engine&quot; id=&quot;markdown-toc-data-storage-engine&quot;&gt;4. Data Storage Engine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;2. Introduction&lt;/h2&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;1. Introduction&lt;/h2&gt;
 
-&lt;p&gt;Working on the architecture of a website engine, this is the first rough conceptual outline, consider it draft 1. So far it has several parts, namely:&lt;/p&gt;
+&lt;p&gt;Working on the architecture of a website engine. This is the first rough conceptual outline, consider it draft 1. So far it has several parts, namely:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#display-engine&quot;&gt;The display engine&lt;/a&gt;, which displays the website in the client’s browser.&lt;/li&gt;
@@ -59,25 +44,25 @@
   &lt;li&gt;&lt;a href=&quot;#data-storage-engine&quot;&gt;The data storage engine&lt;/a&gt;, which stores and retrieves data in an efficient way.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;display-engine&quot;&gt;3. Display Engine&lt;/h2&gt;
+&lt;h2 id=&quot;display-engine&quot;&gt;2. Display Engine&lt;/h2&gt;
 
 &lt;p&gt;A new display engine is necessary because currently websites have subtle problems that are overlooked. These include:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The sending of a lot of redundant information, such as information that is already on the current page, this wastes bandwidth, and time.&lt;/li&gt;
-  &lt;li&gt;Allowing the building or progressive loading to be seen by the user. This causes problems, such as the user trying to click a link that has loaded, but it being moved once the loading of other content is done, often causing the user to click another link.&lt;/li&gt;
+  &lt;li&gt;The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth, and time.&lt;/li&gt;
+  &lt;li&gt;Allowing the building or progressive loading to be seen by the user. This causes problems, such as the user trying to click a link that has loaded, but it being moved once the loading of other content is done, often causing the user to click a different link.&lt;/li&gt;
   &lt;li&gt;The webpage displaying stale information.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To fix these problems pages are not stored contiguously, each part of content is stored separately so more than any part can use any other part. Everything has an ID, every part, and every collection of parts as IDs, such as pages. Parts are stored separately, and the main types of parts that make up pages are as follows:&lt;/p&gt;
+&lt;p&gt;To fix these problems pages are not stored contiguously, each part of content is stored separately so any part can use any other part. Everything has an identifier (ID), every part of a page, and every collection of IDs references parts, such as pages. Parts of pages are stored separately, and the main types of parts that make up pages are as follows:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Dynamic Markdown (DMD), for content.&lt;/strong&gt;&lt;br /&gt;
-This is how the structure of any content of pages is written, and is stored in a similar way. Instead of using extraneous HTML, content is stored separately. This allows layout to be applied to content later as DLSs. Content references the DSS, DE, and DLS it uses.&lt;/li&gt;
+This is how the structure of any content of pages is written, and is stored in a similar way. Instead of using extraneous HTML, content is stored without it separately. This allows layout to be applied to content later as DLSs. Content references the DSS, DE, and DLS it uses.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dynamic Style Sheets (DSS), for style.&lt;/strong&gt;&lt;br /&gt;
-DSS is somewhat like Cascading Style Sheets (CSS), except it can directly reference functionality of DJS. DSS references DJS directly.&lt;/li&gt;
+DSS is somewhat like Cascading Style Sheets (CSS), except it can directly reference functionality of DJS.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Display JavaScript (DJS), for dynamic display.&lt;/strong&gt;&lt;br /&gt;
-This is used specifically with DSS and with it effectively forms more powerful CSS.&lt;/li&gt;
+This is used specifically with DSS and with it effectively forms more powerful CSS that can change at runtime.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dynamic Events (DE), for actions.&lt;/strong&gt;&lt;br /&gt;
 This is JavaScript that defines what something does when used. How these events are incorporated with other events on the page is to be decided.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Dynamic Layout Sheets (DLS), for layout.&lt;/strong&gt;&lt;br /&gt;
@@ -86,13 +71,13 @@ DLS determines how content is laid out on the page, effectively converting it in
 
 &lt;p&gt;The purpose of the display engine is to determine how content is to be presented and controlled by the user.&lt;/p&gt;
 
-&lt;p&gt;The display engine has the following:&lt;/p&gt;
+&lt;p&gt;The display engine is made up of the following:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Loader.&lt;/strong&gt;&lt;br /&gt;
 The loader controls, using DJS that is associated a particular structure element, how to load and unload the page, including individual parts, and what order to do so.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Cacher.&lt;/strong&gt;&lt;br /&gt;
-Caches things, such as information that is frequently being used, but not necessarily right now.&lt;/li&gt;
+Caches things, such as information that is frequently being used, but not necessarily all the time.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;DSS parser.&lt;/strong&gt;&lt;br /&gt;
 This converts DSS to CSS&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;DJS parser.&lt;/strong&gt;&lt;br /&gt;
@@ -100,72 +85,71 @@ Incorporates DJS into the main JavaScript.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;DE parser.&lt;/strong&gt;&lt;br /&gt;
 Incorporates DE into the main JavaScript.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;DMD and DLS/Content parser.&lt;/strong&gt;&lt;br /&gt;
-This converts content to HTML using DLS.&lt;/li&gt;
+This converts content as DMD to HTML using DLS.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Communicator.&lt;/strong&gt;&lt;br /&gt;
 The communicator handles connections with the server, and what ever else is connected to the page, which could be a WebRTC connection to a peer. Communication is always done with events, which are effectively commands, using socket.io for TCP connections, and WebRTC for UDP connections, including with the server.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;server-engine&quot;&gt;4. Server Engine&lt;/h2&gt;
+&lt;h2 id=&quot;server-engine&quot;&gt;3. Server Engine&lt;/h2&gt;
 
-&lt;p&gt;The server engine handles requests from the client engine, including:&lt;/p&gt;
+&lt;p&gt;The server engine handles requests from the client engine, for example:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Data requests, which are forwarded to the data storage engine, which may be on the same machine or another server, consolidates the returned data to be sent to the client.&lt;/li&gt;
-  &lt;li&gt;Application requests, where the server engine runs code.
-Request routing, where the server workloads are distributed to different servers.&lt;/li&gt;
+  &lt;li&gt;Application requests, where the server engine processes some information.&lt;/li&gt;
+  &lt;li&gt;Request routing, where the server workloads are distributed to different servers.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Node.js is used for effective asynchronous IO.&lt;/p&gt;
+&lt;p&gt;Technically there is no distinction between data requests and application requests, as the data storage engine is an application. Everything that is sent across any network is just an event, which is a glorified command. All requests are the same.&lt;br /&gt;
+The serve engine just manages events, which is also essentially what the display engine does, and they may end-up being the same thing. The thing that distinguishes them is the event handlers.&lt;/p&gt;
 
-&lt;h2 id=&quot;data-storage&quot;&gt;5. Data Storage&lt;/h2&gt;
+&lt;p&gt;Node.js is used on the server for effective asynchronous IO, and parity with the client, where it will be possible to have handlers run on both the client and the server.&lt;/p&gt;
 
-&lt;p&gt;Engine Data storage is essentially used instead of a filesystem so only the information that is required is sent. As such, the parts of webpages are stored separately and indexed.&lt;/p&gt;
+&lt;h2 id=&quot;data-storage-engine&quot;&gt;4. Data Storage Engine&lt;/h2&gt;
+
+&lt;p&gt;Data storage is essentially used instead of a filesystem so only the information that is required is sent. As such, the parts of webpages are stored separately and indexed.&lt;/p&gt;
 
 &lt;p&gt;As nothing is assumed of data storage, other than the storage of data itself, basic properties are required:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Searchability, using indexes.&lt;/strong&gt;&lt;br /&gt;
-Entry lookups need to be fast, and as such, have as few reads from disk as possible. This is done with indexing, which are essentially maps of the data, that may be spread across different servers, and are usually held in memory. Indexes, being entries themselves, can also be indexed, creating the possibility of index routing to find data in highly distributed, extremely large data sets.&lt;/li&gt;
+Entry lookups need to be fast, and as such, have as few reads from disk as possible. This is done with indexes, which are essentially maps of the data that may be spread across different servers, and are usually held in memory. Indexes, being entries themselves, can also be indexed, creating the possibility of index routing to find data in highly distributed, extremely large data sets.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Consistency, using transactions.&lt;/strong&gt;&lt;br /&gt;
-All the data must remain consistent. Such as indexes remaining accurate with respect to the data itself, and the same data in more than one server being synchronised.&lt;/li&gt;
+All the data must remain consistent. Such as indexes remaining accurate with respect to the data itself, and the same data in more than one server being synchronised. Changes are not committed the information exists in non-volatile memory in all the locations.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Segmentability, using sharding.&lt;/strong&gt;&lt;br /&gt;
-The database files themselves must be splittable and redistributable across many servers in order to manage workload.&lt;/li&gt;
+The database files themselves must be splittable and redistributable across many servers in order to manage workload of those servers without high overhead.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Redundancy, using duplication and transactions.&lt;/strong&gt;&lt;br /&gt;
 In order to have backups, duplication and synchronisation of data is imperative to avoid loss of data. This is done by duplication of data with guaranteed consistency.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Burden fairness, using data routing.&lt;/strong&gt;
-Different servers may happen to be dealing with data with different amounts of demand, those under high workload should not be put under additional stress, and may also have burden relieved by having part of its data moved or duplicated to a less stressed server.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Burden balancing, using data routing.&lt;/strong&gt;&lt;br /&gt;
+Different servers may happen to be dealing with data with different demand, those under high workload should not be put under additional stress, and may also have burden relieved by having part of its data moved to a less stressed server.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Entries are stored as JSON where each object holds 1 isolated piece of information, and references to associated data. Entries may only contain references, and of these entries, indexes have domain hierarchies to resolve large ranges of reference quickly. Entries are allocated a server based on how much burden servers are under, where the precise location is known by indexes.&lt;br /&gt;
+&lt;p&gt;Entries are stored as JSON where each object holds 1 isolated piece of information, and references to associated data. Indexes may only contain references, and of these entries, indexes have domain hierarchies to resolve large ranges of reference quickly. Entries are allocated a server based on how much burden servers are under, where the precise location is known by indexes.&lt;br /&gt;
 Entries can be an arbitrary length of bytes, and free space is mapped using indexes.&lt;/p&gt;
 
-&lt;p&gt;Databases, which are individual files part of the larger data storage engine, can only be made longer without reading and then writing the entire file to disk. This is a limitation of filesystems. As much as it would be convenient to have every entry in a separate file, this comes with some expensive overhead, such as addition meta data and indexing of the filesystem by the operating system, and as such the additional time it takes for the filesystem to find the entry on top of the time it takes the data storage engine to find it.&lt;/p&gt;
+&lt;p&gt;Files part of the larger data storage engine, can only be made longer without reading and then writing the entire file to disk, which is a limitation of filesystems. As much as it would be convenient to have every entry in a separate file, this comes with some expensive overhead, such as additional meta data and indexing of the filesystem by the operating system, and as such there is additional time for the filesystem to find the entry on top of the time it already takes the data storage engine to find it.&lt;/p&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you enjoyed it, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;It is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;127.0.0.1:4000 Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 23:54:09 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2016/02/29/website-engine.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2016/02/29/website-engine.html</guid>
+        <link>127.0.0.1:4000/articles/2016/02/29/website-engine-outline.html</link>
+        <guid isPermaLink="true">127.0.0.1:4000/articles/2016/02/29/website-engine-outline.html</guid>
         
         
       </item>
     
       <item>
         <title>Been Busy</title>
-        <description>&lt;h1 id=&quot;been-busy&quot;&gt;Been Busy&lt;/h1&gt;
-&lt;p&gt;&lt;em&gt;Written by: Kalcifer Kandari&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Date: 29 February 2016 20:03:07&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Started a lot of projects in the past few years and not published much information on them, that is about to change. The point of this blog is to present musings mostly on technicalities of the work of Kalcifer Kandari.&lt;/p&gt;
+        <description>&lt;p&gt;Started a lot of projects in the past few years and not published much information on them, that is about to change. The point of this blog is to present musings mostly on technicalities. The blog will feature final papers, those should be hosted on &lt;a href=&quot;http://bioticpixels.com/&quot; title=&quot;bioticpixels.com&quot;&gt;bioticpixels.com&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;A website engine in JavaScript, including the client, server, and the database.&lt;/strong&gt;&lt;br /&gt;
-Websites are great, most of the time, but there are some aspects to them that are mildly annoying and should have been fixed already. Things such as those times when a page almost loads, but then loads a bit more and moves a link you are about to press just a enough for you to click a different one. Looking at you Google.com. And the fact that most website send the parts of the webpage that don’t change with every request. Small things that take a lot of effort to fix. More about these intricacies an another post.&lt;/li&gt;
+Websites are great, most of the time, but there are some aspects to them that are mildly annoying and should have been fixed already. Things such as those times when a page almost loads, but then loads a bit more and moves a link you are about to press just a enough for you to click a different one. Looking at you Google.com. And the fact that most website send the parts of the webpage that don’t change with every request. Small things that take a lot of effort to fix. More about these intricacies an &lt;a href=&quot;/articles/2016/02/29/website-engine-outline.html&quot;&gt;another post&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A game engine.&lt;/strong&gt;&lt;br /&gt;
 Games are great, not that much of the time actually, most are in denial or do things inefficiently. They are in denial because many don’t present what is the case, such as ‘hit boxes’ being different from models, or trying to have humanoids as characters, but not animating or simulating them well. They are inefficient because at the cost of scale they priorities excessive polygon counts for severely diminishing returns to enjoyment, or hold information of objects that cannot even be seen. Subtle things that take a lot of effort to fix. More about these intricacies in another post.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A highly modular application/operating system engine.&lt;/strong&gt;&lt;br /&gt;
@@ -182,12 +166,12 @@ More on the flaws of movies and books, making up for the disappointment of super
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you enjoyed it, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;It is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;127.0.0.1:4000 Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 20:03:07 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2016/02/29/been-busy.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2016/02/29/been-busy.html</guid>
+        <link>127.0.0.1:4000/articles/2016/02/29/been-busy.html</link>
+        <guid isPermaLink="true">127.0.0.1:4000/articles/2016/02/29/been-busy.html</guid>
         
         
       </item>
@@ -360,13 +344,13 @@ More on the flaws of movies and books, making up for the disappointment of super
 
 &lt;p&gt;Thanks for reading!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you want to comment on this article &lt;a href=&quot;https://redd.it/47bn8f&quot; title=&quot;reddit.com&quot;&gt;it was posted on Reddit&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;If you enjoyed it, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;It is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;If you want to comment on &lt;a href=&quot;https://redd.it/47bn8f&quot; title=&quot;reddit.com&quot;&gt;it was posted on Reddit&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;127.0.0.1:4000 Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 24 Feb 2016 06:13:33 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2016/02/24/icira.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2016/02/24/icira.html</guid>
+        <link>127.0.0.1:4000/articles/2016/02/24/icira.html</link>
+        <guid isPermaLink="true">127.0.0.1:4000/articles/2016/02/24/icira.html</guid>
         
         
       </item>
@@ -1409,8 +1393,8 @@ _   underscore
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 20 Dec 2015 21:45:48 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2015/12/20/markdown-test.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2015/12/20/markdown-test.html</guid>
+        <link>127.0.0.1:4000/articles/2015/12/20/markdown-test.html</link>
+        <guid isPermaLink="true">127.0.0.1:4000/articles/2015/12/20/markdown-test.html</guid>
         
         
       </item>
