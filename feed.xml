@@ -5,13 +5,15 @@
     <description></description>
     <link>kalciferkandari.github.io/</link>
     <atom:link href="kalciferkandari.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 16:48:11 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 16:48:11 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 16:57:14 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 16:57:14 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>About</title>
-        <description>&lt;p&gt;TODO&lt;/p&gt;
+        <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
+
+&lt;p&gt;TODO&lt;/p&gt;
 </description>
         <pubDate>Wed, 02 Mar 2016 13:15:00 +0000</pubDate>
         <link>kalciferkandari.github.io/articles/about.html</link>
@@ -131,7 +133,7 @@ Entries can be an arbitrary length of bytes, and free space is mapped using inde
 
 &lt;hr /&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -164,7 +166,7 @@ More on the flaws of movies and books, making up for the disappointment of super
 
 &lt;hr /&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -178,49 +180,36 @@ More on the flaws of movies and books, making up for the disappointment of super
     
       <item>
         <title>ICIRA</title>
-        <description>&lt;h1 id=&quot;a-proposal-for-the-formation-of-the-internet-copyright-insurance-and-regulation-association-icira&quot;&gt;A Proposal for the Formation of The Internet Copyright Insurance and Regulation Association (ICIRA)&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;Written by: Kalcifer Kandari&lt;/em&gt;&lt;br /&gt;
-&lt;em&gt;Date: 24 February 2016 06:13:33&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;0. Abstract&lt;/h2&gt;
-
-&lt;p&gt;An idea for a proposal for an unofficial industry governing body providing centralised computer-readable Internet copyright licensing creation, proof, detection, dispute, and site-wide regulation.&lt;/p&gt;
-
-&lt;h2 id=&quot;table-of-contents&quot;&gt;1. Table of Contents&lt;/h2&gt;
+        <description>
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
 
 &lt;p&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;command + up&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;control + up&lt;/code&gt; to come back to the table of contents.&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#a-proposal-for-the-formation-of-the-internet-copyright-insurance-and-regulation-association-icira&quot; id=&quot;markdown-toc-a-proposal-for-the-formation-of-the-internet-copyright-insurance-and-regulation-association-icira&quot;&gt;A Proposal for the Formation of The Internet Copyright Insurance and Regulation Association (ICIRA)&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#abstract&quot; id=&quot;markdown-toc-abstract&quot;&gt;0. Abstract&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#table-of-contents&quot; id=&quot;markdown-toc-table-of-contents&quot;&gt;1. Table of Contents&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;2. Introduction&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#computer-readable-standardised-licensing-agreements&quot; id=&quot;markdown-toc-computer-readable-standardised-licensing-agreements&quot;&gt;3. Computer-Readable Standardised Licensing Agreements&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#copyright-license-enforcement&quot; id=&quot;markdown-toc-copyright-license-enforcement&quot;&gt;4. Copyright License Enforcement&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#paid-proof-of-publication&quot; id=&quot;markdown-toc-paid-proof-of-publication&quot;&gt;4.1. Paid Proof of Publication&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#paid-content-match-detection&quot; id=&quot;markdown-toc-paid-content-match-detection&quot;&gt;4.2. Paid Content Match Detection&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#high-stakes-copyright-dispute-mediation&quot; id=&quot;markdown-toc-high-stakes-copyright-dispute-mediation&quot;&gt;4.3. High Stakes Copyright Dispute Mediation&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#paid-class-action-lawsuits&quot; id=&quot;markdown-toc-paid-class-action-lawsuits&quot;&gt;4.4. Paid Class Action Lawsuits&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#paid-site-wide-copyright-regulation&quot; id=&quot;markdown-toc-paid-site-wide-copyright-regulation&quot;&gt;5. Paid Site-Wide Copyright Regulation&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#license-verification&quot; id=&quot;markdown-toc-license-verification&quot;&gt;5.1. License Verification&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#settlement-terms-enforcement&quot; id=&quot;markdown-toc-settlement-terms-enforcement&quot;&gt;5.2. Settlement Terms Enforcement&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#proof-of-upload&quot; id=&quot;markdown-toc-proof-of-upload&quot;&gt;5.2.1. Proof of Upload&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#proof-of-revenue&quot; id=&quot;markdown-toc-proof-of-revenue&quot;&gt;5.2.2. Proof of Revenue&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#user-requirements&quot; id=&quot;markdown-toc-user-requirements&quot;&gt;5.3. User Requirements&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#terms-infringement-fine&quot; id=&quot;markdown-toc-terms-infringement-fine&quot;&gt;5.4. Terms Infringement Fine&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;6. Conclusion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#computer-readable-standardised-licensing-agreements&quot; id=&quot;markdown-toc-computer-readable-standardised-licensing-agreements&quot;&gt;2. Computer-Readable Standardised Licensing Agreements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#copyright-license-enforcement&quot; id=&quot;markdown-toc-copyright-license-enforcement&quot;&gt;3. Copyright License Enforcement&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#paid-proof-of-publication&quot; id=&quot;markdown-toc-paid-proof-of-publication&quot;&gt;3.1. Paid Proof of Publication&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#paid-content-match-detection&quot; id=&quot;markdown-toc-paid-content-match-detection&quot;&gt;3.2. Paid Content Match Detection&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#high-stakes-copyright-dispute-mediation&quot; id=&quot;markdown-toc-high-stakes-copyright-dispute-mediation&quot;&gt;3.3. High Stakes Copyright Dispute Mediation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#paid-class-action-lawsuits&quot; id=&quot;markdown-toc-paid-class-action-lawsuits&quot;&gt;3.4. Paid Class Action Lawsuits&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#paid-site-wide-copyright-regulation&quot; id=&quot;markdown-toc-paid-site-wide-copyright-regulation&quot;&gt;4. Paid Site-Wide Copyright Regulation&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#license-verification&quot; id=&quot;markdown-toc-license-verification&quot;&gt;4.1. License Verification&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#settlement-terms-enforcement&quot; id=&quot;markdown-toc-settlement-terms-enforcement&quot;&gt;4.2. Settlement Terms Enforcement&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#proof-of-upload&quot; id=&quot;markdown-toc-proof-of-upload&quot;&gt;4.2.1. Proof of Upload&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#proof-of-revenue&quot; id=&quot;markdown-toc-proof-of-revenue&quot;&gt;4.2.2. Proof of Revenue&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#user-requirements&quot; id=&quot;markdown-toc-user-requirements&quot;&gt;4.3. User Requirements&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#terms-infringement-fine&quot; id=&quot;markdown-toc-terms-infringement-fine&quot;&gt;4.4. Terms Infringement Fine&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot; id=&quot;markdown-toc-conclusion&quot;&gt;5. Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;2. Introduction&lt;/h2&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;1. Introduction&lt;/h2&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; This was not written by a lawyer. This is a speculative proposal and may not have any legal or practical merit. Skepticism is advised.&lt;/em&gt;&lt;/p&gt;
 
@@ -229,37 +218,37 @@ More on the flaws of movies and books, making up for the disappointment of super
 &lt;p&gt;The system would consist of 3 parts:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#computer-readable-standardised-licensing-agreements&quot;&gt;3. Computer-Readable Standardised Licensing Agreements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#copyright-license-enforcement&quot;&gt;4. Copyright License Enforcement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#paidsite-wide-copyright-regulation&quot;&gt;5. Paid Site-wide Copyright Regulation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#computer-readable-standardised-licensing-agreements&quot;&gt;2. Computer-Readable Standardised Licensing Agreements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#copyright-license-enforcement&quot;&gt;3. Copyright License Enforcement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#paidsite-wide-copyright-regulation&quot;&gt;4. Paid Site-wide Copyright Regulation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;computer-readable-standardised-licensing-agreements&quot;&gt;3. Computer-Readable Standardised Licensing Agreements&lt;/h2&gt;
+&lt;h2 id=&quot;computer-readable-standardised-licensing-agreements&quot;&gt;2. Computer-Readable Standardised Licensing Agreements&lt;/h2&gt;
 
 &lt;p&gt;These are standardised public Internet computer-readable licenses that the ICIRA can verify the legitimacy of in a court case. They include agreements between 2 or more verified parties, publicly available paid licenses, declarations of fair use, and guaranteed means of legitimate attribution.&lt;/p&gt;
 
 &lt;p&gt;The computer-readability means that these licenses can automatically be cross-checked upon positive automatic content match, which largely avoids the false-positives of such systems.&lt;/p&gt;
 
-&lt;h2 id=&quot;copyright-license-enforcement&quot;&gt;4. Copyright License Enforcement&lt;/h2&gt;
+&lt;h2 id=&quot;copyright-license-enforcement&quot;&gt;3. Copyright License Enforcement&lt;/h2&gt;
 
 &lt;p&gt;These are services for copyright holders, and include:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#paid-proof-of-publication&quot;&gt;4.1. Paid Proof of Publication&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#paid-content-match-detection&quot;&gt;4.2. Paid Content Match Detection&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#high-stakes-copyright-dispute-mediation&quot;&gt;4.3. High Stakes Copyright Dispute Mediation&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#paid-class-action-lawsuits&quot;&gt;4.4. Paid Class Action Lawsuits&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#paid-proof-of-publication&quot;&gt;3.1. Paid Proof of Publication&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#paid-content-match-detection&quot;&gt;3.2. Paid Content Match Detection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#high-stakes-copyright-dispute-mediation&quot;&gt;3.3. High Stakes Copyright Dispute Mediation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#paid-class-action-lawsuits&quot;&gt;3.4. Paid Class Action Lawsuits&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;paid-proof-of-publication&quot;&gt;4.1. Paid Proof of Publication&lt;/h3&gt;
+&lt;h3 id=&quot;paid-proof-of-publication&quot;&gt;3.1. Paid Proof of Publication&lt;/h3&gt;
 
 &lt;p&gt;This provides a strong means to defend works against accusations of copyright infringement. It is not proof of copyright, it may only be used as evidence.&lt;/p&gt;
 
-&lt;h3 id=&quot;paid-content-match-detection&quot;&gt;4.2. Paid Content Match Detection&lt;/h3&gt;
+&lt;h3 id=&quot;paid-content-match-detection&quot;&gt;3.2. Paid Content Match Detection&lt;/h3&gt;
 
 &lt;p&gt;Either on a single instance basis, or periodically against new uploads. This provides a means to determine whether other works in the depository infringe using automatic content matching, which includes works that sites have given the ICIRA access to, which is part of the regulatory agreement.&lt;/p&gt;
 
-&lt;h3 id=&quot;high-stakes-copyright-dispute-mediation&quot;&gt;4.3. High Stakes Copyright Dispute Mediation&lt;/h3&gt;
+&lt;h3 id=&quot;high-stakes-copyright-dispute-mediation&quot;&gt;3.3. High Stakes Copyright Dispute Mediation&lt;/h3&gt;
 
 &lt;p&gt;The accusing party, herein referred to as ‘the accuser’, pays a sum of money to have a dispute mediated by a human associated with the ICIRA. This is only with works uploaded on regulated sites, as it requires compliance by the host platform.&lt;/p&gt;
 
@@ -281,47 +270,47 @@ More on the flaws of movies and books, making up for the disappointment of super
 
 &lt;p&gt;If the accuser declines the settlement conditions, then the dispute is dropped and they must pay inconvenience damages to the uploader.&lt;/p&gt;
 
-&lt;h3 id=&quot;paid-class-action-lawsuits&quot;&gt;4.4. Paid Class Action Lawsuits&lt;/h3&gt;
+&lt;h3 id=&quot;paid-class-action-lawsuits&quot;&gt;3.4. Paid Class Action Lawsuits&lt;/h3&gt;
 
 &lt;p&gt;Content infringement cases against unregulated websites can also be accumulated to create a break even DMCA class action lawsuit by the ICIRA on the behalf of copyright holders. This means that the infringing site would need to pay for the fees of ICIRA, and the money the participants paid, along with the revenue they earned from the infringed material, and any further damages if the case is won.&lt;/p&gt;
 
-&lt;h2 id=&quot;paid-site-wide-copyright-regulation&quot;&gt;5. Paid Site-Wide Copyright Regulation&lt;/h2&gt;
+&lt;h2 id=&quot;paid-site-wide-copyright-regulation&quot;&gt;4. Paid Site-Wide Copyright Regulation&lt;/h2&gt;
 
 &lt;p&gt;This provides large content platforms to mitigate the possible legal problems associated with publishing content on the Internet on their users’ behalf, and could be considered copyright insurance. A certificate could also be provided by the ICIRA.&lt;/p&gt;
 
 &lt;p&gt;The requirements includes:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#license-verification&quot;&gt;5.1. License Verification&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#settlement-terms-enforcement&quot;&gt;5.2. Settlement Terms Enforcement&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#user-requirements&quot;&gt;5.3. User Requirements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#terms-infringementfine&quot;&gt;5.4. Terms Infringement Fine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#license-verification&quot;&gt;4.1. License Verification&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#settlement-terms-enforcement&quot;&gt;4.2. Settlement Terms Enforcement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#user-requirements&quot;&gt;4.3. User Requirements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#terms-infringementfine&quot;&gt;4.4. Terms Infringement Fine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;license-verification&quot;&gt;5.1. License Verification&lt;/h3&gt;
+&lt;h3 id=&quot;license-verification&quot;&gt;4.1. License Verification&lt;/h3&gt;
 
 &lt;p&gt;This is only required if using a separate content match system, where if a match is found then it is referenced against a license and no further action taken unless by the accuser, which can still be notified of the match.&lt;/p&gt;
 
 &lt;p&gt;Also, automatic takedowns are not permitted, and must always be disputed through the ICIRA or an official DMCA claim.&lt;/p&gt;
 
-&lt;h3 id=&quot;settlement-terms-enforcement&quot;&gt;5.2. Settlement Terms Enforcement&lt;/h3&gt;
+&lt;h3 id=&quot;settlement-terms-enforcement&quot;&gt;4.2. Settlement Terms Enforcement&lt;/h3&gt;
 
 &lt;p&gt;This includes:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#proofofupload&quot;&gt;5.2.1. Proof of Upload&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#proofofrevenue&quot;&gt;5.2.2. Proof of Revenue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proofofupload&quot;&gt;4.2.1. Proof of Upload&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#proofofrevenue&quot;&gt;4.2.2. Proof of Revenue&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id=&quot;proof-of-upload&quot;&gt;5.2.1. Proof of Upload&lt;/h4&gt;
+&lt;h4 id=&quot;proof-of-upload&quot;&gt;4.2.1. Proof of Upload&lt;/h4&gt;
 
 &lt;p&gt;Regulated sites must provide a proof of upload as sufficient proof for intellectual property claims.&lt;/p&gt;
 
-&lt;h4 id=&quot;proof-of-revenue&quot;&gt;5.2.2. Proof of Revenue&lt;/h4&gt;
+&lt;h4 id=&quot;proof-of-revenue&quot;&gt;4.2.2. Proof of Revenue&lt;/h4&gt;
 
 &lt;p&gt;This is required to calculated accurate damages in copyright disputes by users. It is subject to a none disclosure agreement (NDA) between all parties that receive the information, which mean the conditions of the settlements will largely remain private.&lt;/p&gt;
 
-&lt;h3 id=&quot;user-requirements&quot;&gt;5.3. User Requirements&lt;/h3&gt;
+&lt;h3 id=&quot;user-requirements&quot;&gt;4.3. User Requirements&lt;/h3&gt;
 
 &lt;p&gt;ICIRA-user agreement before uploads are permitted on the site, including text. The agreement includes:&lt;/p&gt;
 
@@ -330,11 +319,11 @@ More on the flaws of movies and books, making up for the disappointment of super
   &lt;li&gt;Settlement participation, subject to a fine and possible DMCA case if refused.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;terms-infringement-fine&quot;&gt;5.4. Terms Infringement Fine&lt;/h3&gt;
+&lt;h3 id=&quot;terms-infringement-fine&quot;&gt;4.4. Terms Infringement Fine&lt;/h3&gt;
 
 &lt;p&gt;Where the site agrees to pay a fine if the terms between it and the ICIRA are breached, where the regulatory certificate is also revoked.&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;6. Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;5. Conclusion&lt;/h2&gt;
 
 &lt;p&gt;This would provide a means for sites, big and small, to comply with copyright law in a relatively efficient, and cheap way, and also a means for copyright holders to enforce their property in a convenient manner, possibly having a large improvement in cultural expression on the Internet. It also discourages copyright trolling by creating monetary consequences for unsuccessful claims.&lt;/p&gt;
 
@@ -342,9 +331,9 @@ More on the flaws of movies and books, making up for the disappointment of super
 
 &lt;hr /&gt;
 
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Thanks for reading!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;If you want to comment on &lt;a href=&quot;https://redd.it/47bn8f&quot; title=&quot;reddit.com&quot;&gt;it was posted on Reddit&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://redd.it/47bn8f&quot; title=&quot;reddit.com&quot;&gt;Comments are on Reddit&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;If you want to see more, please consider &lt;a href=&quot;bioticpixels.com/supporting&quot; title=&quot;Supporting Biotic Pixels&quot;&gt;donating&lt;/a&gt;.&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;This article is hosted on &lt;a href=&quot;https://github.io/KalciferKandari/tree/gh-pages/articles&quot; title=&quot;Articles github.io&quot;&gt;GitHub&lt;/a&gt;. If there are any problems, open an &lt;a href=&quot;https:github.io/KalciferKandari/KalciferKandari.github.io/issues /issues&quot; title=&quot;kalciferkandari.github.io Issues github.io&quot;&gt;issue&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </description>
