@@ -5,8 +5,8 @@
     <description></description>
     <link>kalciferkandari.github.io/</link>
     <atom:link href="kalciferkandari.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Mar 2016 00:41:18 +0000</pubDate>
-    <lastBuildDate>Sat, 05 Mar 2016 00:41:18 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 10:11:00 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 10:11:00 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -161,8 +161,6 @@ Entries can be an arbitrary length of bytes, and free space is mapped using inde
 &lt;p&gt;&lt;em&gt;Written by: Kalcifer Kandari&lt;/em&gt;&lt;br /&gt;
 &lt;em&gt;Date: 29 February 2016 20:03:07&lt;/em&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
 &lt;p&gt;Started a lot of projects in the past few years and not published much information on them, that is about to change. The point of this blog is to present musings mostly on technicalities of the work of Kalcifer Kandari.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -170,7 +168,7 @@ Entries can be an arbitrary length of bytes, and free space is mapped using inde
 Websites are great, most of the time, but there are some aspects to them that are mildly annoying and should have been fixed already. Things such as those times when a page almost loads, but then loads a bit more and moves a link you are about to press just a enough for you to click a different one. Looking at you Google.com. And the fact that most website send the parts of the webpage that don’t change with every request. Small things that take a lot of effort to fix. More about these intricacies an another post.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A game engine.&lt;/strong&gt;&lt;br /&gt;
 Games are great, not that much of the time actually, most are in denial or do things inefficiently. They are in denial because many don’t present what is the case, such as ‘hit boxes’ being different from models, or trying to have humanoids as characters, but not animating or simulating them well. They are inefficient because at the cost of scale they priorities excessive polygon counts for severely diminishing returns to enjoyment, or hold information of objects that cannot even be seen. Subtle things that take a lot of effort to fix. More about these intricacies in another post.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;A highly modular application/operating system engine.&lt;/strong&gt;
+  &lt;li&gt;&lt;strong&gt;A highly modular application/operating system engine.&lt;/strong&gt;&lt;br /&gt;
 Applications and operating systems are great, none of the time, they are archaic. Applications are incredibly insecure, mostly custom written per application, and not cross-platform, what year is this? Insecurity extends to operating systems, applications are rarely properly sandboxed and have almost unlimited power in the system, the fact that applications don’t exploit that power is mostly the obedience of honour rules. Custom written, and users not having control of what the application does on a code-level? Many don’t even allow the rebinding of hot-keys, never mind having main application functionality as modules. Major problems that take a lot of effort to fix. More about these glaring inadequacies in another post.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A hybrid 3D comic/animation.&lt;/strong&gt;&lt;br /&gt;
 Movies and books are great, sometimes. They usually completely void the concept on tension and suspense by having immortal protagonists, and using clichés that telegraph what is going to happen next. Many glorify violence and battle without ever touching on the brutal consequences, war isn’t Hell, war is the Devil’s Heaven. Anything can happen at any time, there are no laws but the laws of physics, this should be shown. More about these inconsistencies in another post.&lt;/li&gt;
