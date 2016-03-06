@@ -34,6 +34,8 @@ logoSmall: "images/kalcifer_kandari_black_150x150.png"
 
 exclude: ["post.sh"]
 
+destination: ../gh-pages
+
 defaults:
     -
         scope:

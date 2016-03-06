@@ -1,39 +1,64 @@
+#----------
+# Written by: Kalcifer Kandari
 # Date: 4 March 2016 06:32:29
+#----------
 
-# Run in '~/github/kalciferkandari' after creating a post. Make sure the branch of the folder 'master' is master before running.
+#---------- == Section
+#========== == Function
 
+#----------
+# Post
+#----------
+# Publish website after a new post.
+# This script is useful because it is important that these commands run in order, otherwise the remote repositories will get out of sync, and typing the commands out takes a long time.
+#
+# Run in '~/github/kalciferkandari/master' after creating a post.
+#
 # Example:
-# post.sh "Commit message."
+# sh post.sh "Commit message."
 
-echo "cd master"
-cd master
+#==========
+# Confirm Do
+#==========
+# Ask the user if the command should be done.
+function confirmDo() {
+    
+    read -p "Run \"$1\"? [y/n] " text
+    if [ $text = y ]; then
+        #echo $arguments
+        eval $1
+    elif [ $text = n ]; then
+        exit 0
+    else
+        confirmDo "$1"
+    fi
+    
+}
 
-echo "jekyll build --destination ../gh-pages"
-jekyll build -- destination ../gh-pages
+confirmDo "git branch"
 
-echo "git commit -am "$1
-git commit -am "$1"
+confirmDo "git add ."
 
-echo "git push origin master"
-git push origin master
+confirmDo "git status"
 
-echo "git cd ../gh-pages"
-git cd ../gh-pages
+confirmDo "git commit -m \"$1\""
 
-echo "git checkout gh-pages"
-git checkout gh-pages
+confirmDo "git push origin master"
 
-echo "git commit -am "$1""
-git commit -am "$1"
+confirmDo "jekyll build"
 
-echo "git push origin gh-pages"
-git push origin gh-pages
+confirmDo "cd ../gh-pages"
 
-echo "cd ../master"
-cd ../master
+confirmDo "git branch"
 
-echo "checkout master"
-checkout master
+confirmDo "git add ."
 
-echo "cd ../"
-cd ../
+confirmDo "git commit -m " "\"$1\""
+
+confirmDo "git push origin gh-pages"
+
+confirmDo "cd ../master"
+
+echo "Done."
+
+exit 0
