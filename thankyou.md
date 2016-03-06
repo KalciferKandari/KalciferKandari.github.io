@@ -7,4 +7,7 @@ date: 2016-03-02 13:17:38
 title: "Thank You!"
 permalink: "/thankyou"
 ---
+
+## Thank you!
+
 Thank you for donating!
