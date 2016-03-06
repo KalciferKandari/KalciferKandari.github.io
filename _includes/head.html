@@ -10,7 +10,7 @@ Date: 1 March 2016 21:46:46
 {% for css in page.css %}
 <link rel="stylesheet" type="text/css" href="{{ site.http | append: site.url | append: site.baseurl }}/css/{{ css }}.css">{% endfor %}
 
-<link rel="shortcut icon" type="image/png" href="{{ site.http | append: site.url | append: site.baseurl }}/{{ site.images }}/favicon_black.png">
+<link rel="shortcut icon" type="image/png" href="{{ site.http | append: site.url | append: site.baseurl }}/{{ site.images }}favicon_black.png">
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | prepend: site.http }}">
 
