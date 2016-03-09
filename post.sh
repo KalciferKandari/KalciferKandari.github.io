@@ -53,35 +53,74 @@ function confirmDo() {
     
 }
 
-confirmDo "cd $HOME/github/kalciferkandari/master"
+function ifAll () {
+    
+    if [ $1 = "true" ]; then
+        
+        echo "Running \`$2\`."
+        eval $2
+        echo "Done \"$2\".\n"
+        
+    else
+        
+        confirmDo "$2"
+        
+    fi
+    
+}
 
-confirmDo "git branch"
+echo "Do all commands with no confirmation? (Not recommended)."
+read -p "[y/n/e (yes/no/exit)] " text1
 
-confirmDo "git add ."
+if [ $text1 = y ]; then
 
-confirmDo "git status"
+    echo "Doing all commands with no confirmation.\n"
+    all="true"
+    
+elif [ $text1 = e ]; then
 
-confirmDo "git commit -m \"$1\""
+    echo "Exiting."
+    exit 0
+    
+elif [ $text1 = n ]; then
 
-confirmDo "git push origin master"
+    echo "Confirming commands.\n"
+    all="false"
+    
+else
 
-confirmDo "jekyll build"
+    echo "Enter a valid letter."
+    confirmDo "$1"
+    
+fi
 
-confirmDo "cd ../gh-pages"
+ifAll $all "git branch"
 
-confirmDo "git branch"
+ifAll $all "git add ."
 
-confirmDo "git add ."
+ifAll $all "git status"
 
-confirmDo "git status"
+ifAll $all "git commit -m \"$1\""
 
-confirmDo "git commit -m \"$1\""
+ifAll $all "git push origin master"
 
-confirmDo "git push origin gh-pages"
+ifAll $all "jekyll build"
 
-confirmDo "cd ../master"
+ifAll $all "cd ../gh-pages"
 
-confirmDo "git branch"
+ifAll $all "git branch"
+
+ifAll $all "git add ."
+
+ifAll $all "git status"
+
+ifAll $all "git commit -m \"$1\""
+
+ifAll $all "git push origin gh-pages"
+
+ifAll $all "cd ../master"
+
+ifAll $all "git branch"
 
 echo "Done. Exiting."
 
