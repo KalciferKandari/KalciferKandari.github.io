@@ -78,6 +78,12 @@ a {
   a:hover {
     text-decoration: underline; }
 
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: bold; }
+
 .hiddenBullets {
   list-style: none; }
 
@@ -183,12 +189,6 @@ p {
   font-size: inherit;
   text-align: left;
   padding-top: 0.5em; }
-
-em {
-  font-style: italic; }
-
-strong {
-  font-weight: bold; }
 
 pre, code {
   font-family: Consolas, Menlo, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
