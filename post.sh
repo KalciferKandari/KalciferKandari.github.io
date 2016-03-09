@@ -33,7 +33,7 @@ function confirmDo() {
     if [ "$text" == "y" ]; then
     
         eval $1
-        echo "Done \"$1\".\n"
+        echo "Done \`$1\`.\n"
         
     elif [ "$text" == "e" ]; then
     
@@ -62,7 +62,7 @@ function ifAll() {
         
         echo "Running \`$2\`."
         eval $2
-        echo "Done \"$2\".\n"
+        echo "Done \`$2\`.\n"
         
     else
         
