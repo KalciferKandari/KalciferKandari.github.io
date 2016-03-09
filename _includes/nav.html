@@ -18,7 +18,9 @@ Date: 2 March 2016 09:03:14
 
 <li><a href="{{ "https://" | append: site.githubUrl | append: "/" | append: site.github }}" title="{{ site.githubUrl | append: "/" | append: site.github }}">GitHub</a> |</li>
 
-<li>{% if page.url != "/supporting.html" %}{{ '<a href="' }}{{ site.http | append: supporting }}{{ '" title="' }}{{ supporting }}{{ '">' }}Supporting</a>{% else %}Supporting{% endif %} |</li>
+{% comment %}<li>{% if page.url != "/supporting.html" %}{{ '<a href="' }}{{ site.http | append: supporting }}{{ '" title="' }}{{ supporting }}{{ '">' }}Supporting</a>{% else %}Supporting{% endif %} |</li>
+
+{% endcomment %}<li><a href="https://www.behance.net/KalciferKandari" title="behance.net/KalciferKandari">Behance</a> |</li>
 
 <li>{% if page.url != "articles/about.html" %}{{ '<a href="' }}{{ site.http | append: site.url | append: site.baseurl | append: "/articles/about" }}{{ '" title="' }}{{ site.url | append: site.baseurl | append: "/articles/about" }}{{ '">' }}About</a>{% else %}About{% endif %}</li>
 

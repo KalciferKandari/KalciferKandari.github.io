@@ -4,7 +4,7 @@
 # Date: 3 March 2016 23:54:09
 #----------
 date: 2016-02-29 23:54:09
-title: "Website Engine Outline 0.1.0"
+title: "Website Engine: Outline"
 author: Kalcifer_Kandari
 excerpt: "Websites are great, most of the time, but there are some aspects to them that are mildly annoying that should not be there. Small things that take a lot of effort to fix. Here is a rough conceptual outline of architecture to fix them."
 ---
@@ -94,4 +94,6 @@ Entries can be an arbitrary length of bytes, and free space is mapped using inde
 
 Files part of the larger data storage engine, can only be made longer without reading and then writing the entire file to disk, which is a limitation of filesystems. As much as it would be convenient to have every entry in a separate file, this comes with some expensive overhead, such as additional meta data and indexing of the filesystem by the operating system, and as such there is additional time for the filesystem to find the entry on top of the time it already takes the data storage engine to find it.
 
-{% include footer.html %}
+---
+
+[Next in the series: "Website Engine: The Precursor"]({% post_url 2016-03-07-website-engine-the-precursor-outline %})

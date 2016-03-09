@@ -8,7 +8,6 @@ Date: 2 March 2016 10:33:33
 TODO Make code (incline and blocks) more obvious
 */
 
-
 @import 'reset';
 @import 'global';
 
@@ -129,14 +128,6 @@ p {
     font-size: inherit;
     text-align: left;
     padding-top: 0.5em;
-}
-
-em {
-    font-style: italic;
-}
-
-strong {
-    font-weight: bold;
 }
 
 pre, code {

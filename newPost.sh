@@ -24,17 +24,16 @@ if [ -f "_posts/$date4.md" ]; then
     exit 0
 fi
 
-echo "
----
+echo "---
 #----------
 # Written by: Kalcifer Kandari
 # Date: $date2
 #----------
 date: $date3
-title: ""
-author: Kalcifer_Kandari
-excerpt: ""
----\n
-" > _posts/"$date4.md"
+title: \"\"
+author: \"Kalcifer_Kandari\"
+excerpt: \"\"
+---
+" > "_posts/$date4.md"
 
 exit 0
