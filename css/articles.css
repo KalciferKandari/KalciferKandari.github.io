@@ -271,3 +271,6 @@ nav {
 img {
   display: block;
   max-width: 100%; }
+
+.centre {
+  text-align: center; }
