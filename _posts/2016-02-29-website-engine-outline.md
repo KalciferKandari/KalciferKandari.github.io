@@ -96,4 +96,5 @@ Files part of the larger data storage engine, can only be made longer without re
 
 ---
 
+{: .centre}
 [Next in the series: "Website Engine: The Precursor"]({% post_url 2016-03-07-website-engine-the-precursor-outline %})
