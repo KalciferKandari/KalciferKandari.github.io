@@ -143,7 +143,7 @@ function confirmAll() {
     
 }
 
-confirmAll $1
+confirmAll "$1"
 
 echo "Done. Exiting."
 
