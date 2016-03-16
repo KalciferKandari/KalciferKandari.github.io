@@ -110,7 +110,7 @@
 
 <ul id="markdown-toc">
   <li><a href="#introduction" id="markdown-toc-introduction">1. Introduction</a></li>
-  <li><a href="#display-engine" id="markdown-toc-display-engine">2. Display Engine</a></li>
+  <li><a href="#client-engine" id="markdown-toc-client-engine">2. Client Engine</a></li>
   <li><a href="#server-engine" id="markdown-toc-server-engine">3. Server Engine</a></li>
   <li><a href="#data-storage-engine" id="markdown-toc-data-storage-engine">4. Data Storage Engine</a></li>
 </ul>
@@ -120,22 +120,24 @@
 <p>Working on the architecture of a website engine. This is the first rough conceptual outline, consider it draft 1. So far it has several parts, namely:</p>
 
 <ul>
-  <li><a href="#display-engine">The display engine</a>, which displays the website in the client’s browser.</li>
+  <li><a href="#client-engine">The client engine</a>, which displays the website in the client’s browser.</li>
   <li><a href="#server-engine">The server engine</a>, which handles requests.</li>
   <li><a href="#data-storage-engine">The data storage engine</a>, which stores and retrieves data in an efficient way.</li>
 </ul>
 
-<h2 id="display-engine">2. Display Engine</h2>
+<h2 id="client-engine">2. Client Engine</h2>
 
 <p>A new display engine is necessary because currently websites have subtle problems that are overlooked. These include:</p>
 
 <ul>
-  <li>The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth, and time.</li>
+  <li>The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth and time.</li>
   <li>Allowing the building or progressive loading to be seen by the user. This causes problems, such as the user trying to click a link that has loaded, but it being moved once the loading of other content is done, often causing the user to click a different link.</li>
   <li>The webpage displaying stale information.</li>
+  <li>The storage of used information, such as pages automatically loading information, but not unloading it, which is a form of a memory leak.</li>
 </ul>
 
-<p>To fix these problems pages are not stored contiguously, each part of content is stored separately so any part can use any other part. Everything has an identifier (ID), every part of a page, and every collection of IDs references parts, such as pages. Parts of pages are stored separately, and the main types of parts that make up pages are as follows:</p>
+<p>To fix these problems pages are not stored contiguously, each part of content is stored separately so they can be used anywhere and many times. To facilitate this, everything has an identifier (ID), from every paragraph, to every page.<br />
+Parts of pages are stored separately, and the main types of parts that make up pages are as follows:</p>
 
 <ul>
   <li><strong>Dynamic Markdown (DMD), for content.</strong><br />

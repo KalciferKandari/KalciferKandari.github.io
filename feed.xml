@@ -5,8 +5,8 @@
     <description></description>
     <link>kalciferkandari.github.io/</link>
     <atom:link href="kalciferkandari.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 10 Mar 2016 01:05:26 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Mar 2016 01:05:26 +0000</lastBuildDate>
+    <pubDate>Wed, 16 Mar 2016 21:03:17 +0000</pubDate>
+    <lastBuildDate>Wed, 16 Mar 2016 21:03:17 +0000</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -51,7 +51,7 @@ Can also be used interchangeably with Outro 2.&lt;/p&gt;
     
       <item>
         <title>Website Engine: The Precursor Outline</title>
-        <description>&lt;p&gt;As a full website engine will be very time consuming, it will be astute to create part of it first, namely the client considering it is the most readily accessible by users. To emphasise this, the engine will initially be HTTP only, where the data for the site will be stored as GitHub pages as JSON, where it will be constructed on the client on top of browser abstraction libraries, which are to be decided, but will likely be either JQuery, Bootstrap, or AngularJS.&lt;/p&gt;
+        <description>&lt;p&gt;As a full website engine will be very time consuming, it will be astute to create part of it first, namely the client considering it is the most readily accessible by users. To emphasise this, the engine will initially be HTTP only, where the data for the site will be stored as GitHub pages as JSON, where it will be constructed on the client on top of browser abstraction libraries, which are to be decided.&lt;/p&gt;
 
 &lt;p&gt;As much as this engine with GitHub pages would not be suitable for production, as the interface is more complicated than what is acceptable for users, it is a good use-case and proof-of-concept for the display engine, and will create the framework necessary for two-way communication with the server.&lt;/p&gt;
 
@@ -81,28 +81,6 @@ Can also be used interchangeably with Outro 2.&lt;/p&gt;
       </item>
     
       <item>
-        <title>Site Comments</title>
-        <description>&lt;p&gt;Comments, what should comments be on the site? It’s ironic because you can’t comment. The &lt;a href=&quot;https://www.reddit.com/r/kalciferkandari&quot; title=&quot;reddit.com/r/kalciferkandari&quot;&gt;subreddit&lt;/a&gt;? Embedded comments? Come on, are you nervous or something? Stage-fright? Can’t pee when you’re being watched? Not really sure what that has to do with this. What were you saying?&lt;/p&gt;
-</description>
-        <pubDate>Mon, 07 Mar 2016 01:12:45 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2016/03/07/site-comments.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2016/03/07/site-comments.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Twitter</title>
-        <description>&lt;p&gt;Really not sure about Twitter.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 06 Mar 2016 21:54:49 +0000</pubDate>
-        <link>kalciferkandari.github.io/articles/2016/03/06/twitter.html</link>
-        <guid isPermaLink="true">kalciferkandari.github.io/articles/2016/03/06/twitter.html</guid>
-        
-        
-      </item>
-    
-      <item>
         <title>About</title>
         <description>&lt;h1 id=&quot;about&quot;&gt;About&lt;/h1&gt;
 
@@ -124,7 +102,7 @@ Can also be used interchangeably with Outro 2.&lt;/p&gt;
 
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;1. Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#display-engine&quot; id=&quot;markdown-toc-display-engine&quot;&gt;2. Display Engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#client-engine&quot; id=&quot;markdown-toc-client-engine&quot;&gt;2. Client Engine&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#server-engine&quot; id=&quot;markdown-toc-server-engine&quot;&gt;3. Server Engine&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#data-storage-engine&quot; id=&quot;markdown-toc-data-storage-engine&quot;&gt;4. Data Storage Engine&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -134,22 +112,24 @@ Can also be used interchangeably with Outro 2.&lt;/p&gt;
 &lt;p&gt;Working on the architecture of a website engine. This is the first rough conceptual outline, consider it draft 1. So far it has several parts, namely:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#display-engine&quot;&gt;The display engine&lt;/a&gt;, which displays the website in the client’s browser.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#client-engine&quot;&gt;The client engine&lt;/a&gt;, which displays the website in the client’s browser.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#server-engine&quot;&gt;The server engine&lt;/a&gt;, which handles requests.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#data-storage-engine&quot;&gt;The data storage engine&lt;/a&gt;, which stores and retrieves data in an efficient way.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;display-engine&quot;&gt;2. Display Engine&lt;/h2&gt;
+&lt;h2 id=&quot;client-engine&quot;&gt;2. Client Engine&lt;/h2&gt;
 
 &lt;p&gt;A new display engine is necessary because currently websites have subtle problems that are overlooked. These include:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth, and time.&lt;/li&gt;
+  &lt;li&gt;The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth and time.&lt;/li&gt;
   &lt;li&gt;Allowing the building or progressive loading to be seen by the user. This causes problems, such as the user trying to click a link that has loaded, but it being moved once the loading of other content is done, often causing the user to click a different link.&lt;/li&gt;
   &lt;li&gt;The webpage displaying stale information.&lt;/li&gt;
+  &lt;li&gt;The storage of used information, such as pages automatically loading information, but not unloading it, which is a form of a memory leak.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;To fix these problems pages are not stored contiguously, each part of content is stored separately so any part can use any other part. Everything has an identifier (ID), every part of a page, and every collection of IDs references parts, such as pages. Parts of pages are stored separately, and the main types of parts that make up pages are as follows:&lt;/p&gt;
+&lt;p&gt;To fix these problems pages are not stored contiguously, each part of content is stored separately so they can be used anywhere and many times. To facilitate this, everything has an identifier (ID), from every paragraph, to every page.&lt;br /&gt;
+Parts of pages are stored separately, and the main types of parts that make up pages are as follows:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;Dynamic Markdown (DMD), for content.&lt;/strong&gt;&lt;br /&gt;
@@ -236,22 +216,24 @@ Entries can be an arbitrary length of bytes, and free space is mapped using inde
       </item>
     
       <item>
-        <title>Been Busy</title>
-        <description>&lt;p&gt;Started a lot of projects in the past few years and not published much information on them, that is about to change. Here are summaries of some of the projects. Links will be added when articles on them are written:&lt;/p&gt;
+        <title>Been Busy - Project Hub</title>
+        <description>&lt;p&gt;Started a lot of projects in the past few years and not published much information on them, that is about to change. Here are summaries of some of the projects. Links will be added when articles on them are written.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;/articles/2016/02/29/website-engine-outline.html&quot;&gt;A website engine&lt;/a&gt; in JavaScript, including the client, server, and data storage.&lt;/strong&gt;&lt;br /&gt;
-Websites are great, most of the time, but there are some aspects to them that are mildly annoying and should have been fixed already. Things like pages almost loading, but then loading a bit more, moving a link just a enough for a different one to be clicked. And the fact that most website send the parts of webpages that don’t change with every request. And ones that automatically load while scrolling, but don’t automatically unload at the same time, which is effectively a memory leak. Small things that take a lot of effort to fix.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;A game engine.&lt;/strong&gt;&lt;br /&gt;
-Games are great, not that much of the time actually, most are in denial or do things inefficiently. They are in denial because many don’t present what is the case, such as ‘hit boxes’ being different from models, or trying to have humanoids as characters, but walking not being the method of locomotion. They are inefficient because at the cost of scale they priorities excessive polygon counts for severely diminishing returns to enjoyment, or hold information of objects that cannot even be seen or touched. Subtle things that take a lot of effort to fix. More about these intricacies in another post.&lt;/li&gt;
+There are some aspects to websites that are mildly annoying and by now should have been solved, such as pages shifting while loading, redundant information requests, and automatically loading but no automatically unloading, which is an example of a memory leak. Small things that take a lot of effort to fix.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A computer game engine.&lt;/strong&gt;&lt;br /&gt;
+Most computer games are in denial or are inefficient. In denial because many do not present what &lt;em&gt;is&lt;/em&gt; the case, such as ‘hit boxes’ being different from models, or trying to have humanoids as characters where walking is not the method of locomotion. They are inefficient because at the cost of scale they priorities excessive polygon counts for severely diminishing returns to enjoyment, or hold information of objects that cannot even be seen or touched. Subtle things that take a lot of effort to fix. More about these intricacies in another post.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A highly modular application/operating system engine.&lt;/strong&gt;&lt;br /&gt;
-Applications and operating systems are great, none of the time, they are archaic. Applications are incredibly insecure, mostly custom written per application, and not cross-platform, what year is this? Insecurity extends to operating systems, applications are rarely properly sandboxed and have almost unlimited power in the system, the fact that applications don’t exploit that power is mostly the obedience of honour rules. They are usually custom written, and users don’t usually have control of what the application does on a code-level? Many don’t even allow the rebinding of hot-keys, never mind having main application functionality as modules. All major problems that take a lot of effort to fix. More about these glaring inadequacies in another post.&lt;/li&gt;
+Applications and operating systems are archaic. Applications are incredibly insecure, and mostly custom written per application and not crossplatform. Insecurity extends to operating systems, applications are rarely properly sandboxed and have almost unlimited power in the system, the fact that applications don’t exploit that power is mostly the obedience of honour rules, also known as laws, which is unnecessary. Users should have complete control of what the operating system, and applications do on a code-level, but now many don’t even allow the rebinding of hot-keys, never mind having main application functionality as modules. These are all major problems that take a lot of effort to fix. More about these glaring inadequacies in another post that will go into more detail on operating system and application abstraction layers.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A hybrid 3D comic/animation series.&lt;/strong&gt;&lt;br /&gt;
-Movies and books are great, sometimes. They usually completely void the concept of tension and suspense by having immortal protagonists and by using clichés that telegraph what is going to happen next. Many glorify violence and battle without ever touching on the brutal consequences, war isn’t Hell, war is the Devil’s Heaven. Anything can happen at any time, there are no laws but the laws of physics, this should be shown. More about these inconsistencies in another post.&lt;/li&gt;
+Movies and books usually completely void the concept of tension and suspense by having immortal protagonists and clichés that telegraph what is next. Many glorify violence and battle without ever touching on the brutal consequences, the collateral and merciless suffering. Anything can happen at any time, there are no laws but the laws of physics, and this should be shown. More about a work that seeks not to fall to these flaws in another post.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A topological data redistribution library.&lt;/strong&gt;&lt;br /&gt;
-Decimating and interpolating surfaces in a meaningful way is great, it’s not done well though. It’s slow, inconsistent, and ineffective, especially on large amounts of data. More about these intricacies in another post, and until then here is a sample, some &lt;a href=&quot;http://bioticpixels.com/articles/dymaxion/&quot; title=&quot;bioticpixels.com/articles/dymaxion&quot;&gt;work done to convert an equirectangular digital elevation model (DEM) to a Dymaxion DEM&lt;/a&gt;.&lt;/li&gt;
+Decimating and interpolating surfaces in a meaningful way is not currently done well. It’s slow, inconsistent, and ineffective, especially on large amounts of data. These problems, and a solution will be covered in another post, then here is a sample, some &lt;a href=&quot;http://bioticpixels.com/articles/dymaxion/&quot; title=&quot;bioticpixels.com/articles/dymaxion&quot;&gt;work done to convert an equirectangular digital elevation model (DEM) to a Dymaxion DEM&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;A book.&lt;/strong&gt;&lt;br /&gt;
 More on the flaws of movies and books, making up for the disappointment of super heroes and their consequences, and the oversight of their powers. More about these intricacies in another post.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;A method of writing.&lt;/strong&gt;&lt;br /&gt;
+The discontinuities and downfalls of many works of entertainment can be corrected by a thorough, and technical method of writing, which applies to all medium, from books to story-driven computer games. This will be detailed in another post.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 20:03:07 +0000</pubDate>
