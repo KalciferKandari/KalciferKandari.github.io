@@ -15,19 +15,21 @@ excerpt: "Websites are great, most of the time, but there are some aspects to th
 
 Working on the architecture of a website engine. This is the first rough conceptual outline, consider it draft 1. So far it has several parts, namely:
 
-- [The display engine](#display-engine), which displays the website in the client’s browser.
+- [The client engine](#client-engine), which displays the website in the client’s browser.
 - [The server engine](#server-engine), which handles requests.
 - [The data storage engine](#data-storage-engine), which stores and retrieves data in an efficient way.
 
-## 2. Display Engine
+## 2. Client Engine
 
 A new display engine is necessary because currently websites have subtle problems that are overlooked. These include:
 
-- The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth, and time.
+- The sending of a lot of redundant information, such as information that is already on the current page, which wastes bandwidth and time.
 - Allowing the building or progressive loading to be seen by the user. This causes problems, such as the user trying to click a link that has loaded, but it being moved once the loading of other content is done, often causing the user to click a different link.
 - The webpage displaying stale information.
+- The storage of used information, such as pages automatically loading information, but not unloading it, which is a form of a memory leak.
 
-To fix these problems pages are not stored contiguously, each part of content is stored separately so any part can use any other part. Everything has an identifier (ID), every part of a page, and every collection of IDs references parts, such as pages. Parts of pages are stored separately, and the main types of parts that make up pages are as follows:
+To fix these problems pages are not stored contiguously, each part of content is stored separately so they can be used anywhere and many times. To facilitate this, everything has an identifier (ID), from every paragraph, to every page.  
+Parts of pages are stored separately, and the main types of parts that make up pages are as follows:
 
 - **Dynamic Markdown (DMD), for content.**  
 This is how the structure of any content of pages is written, and is stored in a similar way. Instead of using extraneous HTML, content is stored without it separately. This allows layout to be applied to content later as DLSs. Content references the DSS, DE, and DLS it uses.

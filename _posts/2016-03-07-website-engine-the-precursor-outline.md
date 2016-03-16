@@ -9,7 +9,7 @@ author: "Kalcifer_Kandari"
 excerpt: ""
 ---
 
-As a full website engine will be very time consuming, it will be astute to create part of it first, namely the client considering it is the most readily accessible by users. To emphasise this, the engine will initially be HTTP only, where the data for the site will be stored as GitHub pages as JSON, where it will be constructed on the client on top of browser abstraction libraries, which are to be decided, but will likely be either JQuery, Bootstrap, or AngularJS.
+As a full website engine will be very time consuming, it will be astute to create part of it first, namely the client considering it is the most readily accessible by users. To emphasise this, the engine will initially be HTTP only, where the data for the site will be stored as GitHub pages as JSON, where it will be constructed on the client on top of browser abstraction libraries, which are to be decided.
 
 As much as this engine with GitHub pages would not be suitable for production, as the interface is more complicated than what is acceptable for users, it is a good use-case and proof-of-concept for the display engine, and will create the framework necessary for two-way communication with the server.
 

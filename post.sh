@@ -2,6 +2,9 @@
 # Written by: Kalcifer Kandari
 # Date: 4 March 2016 06:32:29
 #----------
+# TODO Make sure these commands get run if they haven't already:
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/kalciferkandari_rsa
 
 #---------- == Section
 #========== == Function
